@@ -27,7 +27,8 @@ a:hover {
 --------------------------------------------------------------*/
 #hero {
     height: 100vh;
-    background: url("/src/images/thankyou.jpg") center;
+    background-image: url("/src/images/thankyou.jpg");
+    background-position: center;
     background-size: cover;
 }
 
