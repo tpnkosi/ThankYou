@@ -27,7 +27,7 @@ a:hover {
 --------------------------------------------------------------*/
 #hero {
     height: 100vh;
-    background-image: url("/src/images/thankyou.jpg");
+    background-image: url("https://tpnkosi.github.io/ThankYou/src/images/thankyou.jpg");
     background-position: center;
     background-size: cover;
 }
