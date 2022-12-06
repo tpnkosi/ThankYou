@@ -25,10 +25,11 @@ a:hover {
 /*--------------------------------------------------------------
 # Landing Page
 --------------------------------------------------------------*/
-
-/* .hero-container {
-  ;
-} */
+#hero {
+    height: 100vh;
+    background: url("/src/images/thankyou.jpg") center;
+    background-size: cover;
+}
 
 #hero p {
     color: #7053b7;
@@ -40,11 +41,6 @@ a:hover {
 }
 
 @media (min-width: 1024px) {
-    #hero {
-        height: 100vh;
-        background: url("/src/images/thankyou.jpg") center;
-        background-size: cover;
-    }
     #hero #success {
       font-size: 26px;
       bottom: 12%;
@@ -57,11 +53,6 @@ a:hover {
 }
 
 @media (max-width: 768px) {
-    #hero {
-        height: 100vh;
-        background: url("/src/images/thankyou.jpg") center;
-        background-size: cover;
-    }
     #hero #success {
       font-size: 20px;
       bottom: 13%;
