@@ -1,0 +1,93 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #272829;
+}
+
+a {
+    color: #149ddd;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2443aa;
+    text-decoration: none;
+}
+
+/*--------------------------------------------------------------
+# Landing Page
+--------------------------------------------------------------*/
+
+/* .hero-container {
+  ;
+} */
+
+#hero p {
+    color: #7053b7;
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    text-align: center;
+}
+
+@media (min-width: 1024px) {
+    #hero {
+        height: 100vh;
+        background: url("/src/images/thankyou.jpg") center;
+        background-size: cover;
+    }
+    #hero #success {
+      font-size: 26px;
+      bottom: 12%;
+  }
+  
+  #hero #redirect {
+      font-size: 26px;
+      bottom: 7%;
+  }
+}
+
+@media (max-width: 768px) {
+    #hero {
+        height: 100vh;
+        background: url("/src/images/thankyou.jpg") center;
+        background-size: cover;
+    }
+    #hero #success {
+      font-size: 20px;
+      bottom: 13%;
+  }
+  
+  #hero #redirect {
+      font-size: 20px;
+      bottom: 10%;
+  }
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+    align-items: center;
+    padding: 15px;
+    color: #f4f6fd;
+    font-size: 14px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    background: #040b14;
+}
+
+#footer .copyright {
+    text-align: center;
+}
